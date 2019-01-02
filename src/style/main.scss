@@ -1,12 +1,13 @@
 @import 'variables';
+@import 'gradient';
 @import 'library';
 @import 'libraryCourse';
 @import 'arrow';
 @import 'schedule';
-@import 'scheduleCourse';
 @import 'progressTracker';
+@import 'scheduleCourse';
 @import 'addRemoveAction';
-@import 'gradient';
+
 
 .home {
     height: 100vh;
@@ -17,11 +18,5 @@
     grid-template-rows: 1fr;
 
     overflow: hidden;
-    
 }
-
-
-
-
-
 

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class ProgressTreacker extends Component {
+class ProgressTracker extends Component {
 
     calculateProgress = function() {
         return (this.props.amountEnrolled / this.props.amountPossible) * 100;
     }.bind(this);
 
     render() {
-        return(
+        return (
             <div className="progress-tracker">
                 <div className="progress-tracker__title">Progress Tracker</div>
                 <div className="progress-tracker__percentage">
@@ -18,4 +18,4 @@ class ProgressTreacker extends Component {
     }
 }
 
-export default ProgressTreacker;
+export default ProgressTracker;
